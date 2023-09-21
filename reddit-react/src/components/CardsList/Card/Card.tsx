@@ -10,7 +10,6 @@ export default function Card() {
   return (
     <li className={styles.card}>
       <CardHeader />
-      <CardText />
       <CardPreview />
       <CardMenu />
       <CardControls />

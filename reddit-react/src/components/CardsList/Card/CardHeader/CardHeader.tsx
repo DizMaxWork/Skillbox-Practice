@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./CardHeader.module.css";
 import avatar from "./../cardImg/avatar.png";
+import CardText from "../CardText/CardText";
 
 export default function CardHeader() {
   return (
@@ -12,8 +13,12 @@ export default function CardHeader() {
             Дмитрий Гришин
           </a>
         </div>
-        <span className={styles.createdAt}>4 часа назад</span>
+        <span className={styles.createdAt}>
+          <span className={styles.publishedLabel}>опубликовано</span>
+          4 часа назад
+        </span>
       </div>
+      <CardText />
     </div>
   );
 }

@@ -28,7 +28,9 @@
   height: 20px;
   margin: 0 7px 0 0;
 }
-
+.publishedLabel {
+  display: none;
+}
 .username {
   color: var(--orange);
   position: relative;
